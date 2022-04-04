@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+
+    <h1>Exercicio 10</h1>
+   
+  <script>
+
+
+
+  var nume_lados = parseFloat(prompt("Digite o numero de lados do poligono regular"))
+
+var reusltado1 = nume_lados + nume_lados + nume_lados 
+
+var reusltado2 = nume_lados + nume_lados + nume_lados +nume_lados
+
+var reusltado3 = nume_lados + nume_lados + nume_lados +nume_lados + nume_lados
+
+  if(nume_lados==3){
+      document.write("É um triângulo "+reusltado1+"cm")
+  }else if(nume_lados==4){
+      document.write("È um quadrado "+reusltado2+"cm")
+  }else if(nume_lados==5){
+      document.write("È um pentagono "+reusltado3+"cm")
+
+  }else if(nume_lados<3){
+      document.write("Não é um poligono")
+
+  }else if(nume_lados>5){
+      document.write("Poligono não identificado")
+
+  }
+
+  </script>  
+
+</body>
+</html>
